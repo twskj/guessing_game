@@ -12,6 +12,7 @@ use std::cmp::Ordering;
  * 2. Error handling is done using match to ensure all cases are handled
  * 3. Many function return enum and will be processed using match
  * 4. Unicode friendly 👍
+ * 5. Variable shadowing --> ln. 30 overwrite ln. 24 in guess declaration
  */
 
 fn main() {
